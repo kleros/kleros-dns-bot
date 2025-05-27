@@ -97,7 +97,6 @@ To view the logs for your deployed worker:
 
 [^1]: Required secrets must be set in both your local `.env` file and GitHub Actions repository secrets. Go to your repository's Settings > Secrets and variables > Actions and add: `CLOUDFLARE_API_TOKEN`, `TELEGRAM_BOT_TOKEN`, and `TELEGRAM_CHAT_ID`.
 [^2]: To get your Cloudflare API token:
-
     1. Go to the [Cloudflare Dashboard](https://dash.cloudflare.com/)
     2. Navigate to **My Profile** > **API Tokens**
     3. Click **Create Token**
@@ -107,4 +106,5 @@ To view the logs for your deployed worker:
        - **Zone** > **DNS** > **Read**
     6. Set the **Account Resources** to **All accounts**
     7. Set the **Zone Resources** to **All zones**
+    ![image](https://github.com/user-attachments/assets/ecf8e64e-318e-46b8-879c-c38d937308d3)
     8. Click **Continue to summary** and then **Create Token**
