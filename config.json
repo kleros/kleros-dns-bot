@@ -1,13 +1,38 @@
 {
   "domains": [
-    "yearn.fi",
-    "yearn.finance",
-    "curve.fi",
-    "curve.finance",
-    "resupply.fi"
+    "app.proofofhumanity.id",
+    "contract-insight-snap.kleros.builders",
+    "court.kleros.io",
+    "curate-v2.kleros.builders",
+    "curate.kleros.builders",
+    "curate.kleros.io",
+    "dappcon.kleros.builders",
+    "devtools.v2-testnet.kleros.builders",
+    "devtools.v2.kleros.builders",
+    "docs.kleros.io",
+    "docs.vea.ninja",
+    "escrow-v2.kleros.builders",
+    "escrow.kleros.io",
+    "governor-v2.kleros.builders",
+    "governor.kleros.io",
+    "kleros.builders",
+    "kleros.io",
+    "library.kleros.builders",
+    "logo.kleros.builders",
+    "poh.id",
+    "proofofhumanity.id",
+    "resolve.kleros.io",
+    "safesnap.kleros.builders",
+    "v2-testnet.kleros.builders",
+    "v2-university.kleros.builders",
+    "v2.kleros.builders",
+    "v2.proofofhumanity.id",
+    "vea.ninja",
+    "veascan.io"
   ],
-  "cron": "* * * * *",
+  "cron": "*/10 * * * *",
   "kvNamespace": {
-    "id": "860d4c5cb9384e1cab56e7e70504d765"
+    "id": "7ae70df8914744f7ae1cf1dda3f3b35a"
   }
 }
+

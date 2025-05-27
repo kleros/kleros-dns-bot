@@ -4,9 +4,9 @@ compatibility_date = "2024-02-20"
 
 # KV Namespace configuration
 kv_namespaces = [
-  { binding = "DNS_KV", id = "860d4c5cb9384e1cab56e7e70504d765" }
+  { binding = "DNS_KV", id = "7ae70df8914744f7ae1cf1dda3f3b35a" }
 ]
 
 # Cron trigger configuration (runs every minute)
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/10 * * * *"]
